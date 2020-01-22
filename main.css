@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,600&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=latin-ext');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #263238;
+}
+
+.view {
+    min-height: 85vh;
+}
+
+/* Navigation */
+.navbar {
+    min-height: 15vh;
+}
+
+.navbar-toggler-icon {
+    color: #263238 !important;
+}
+
+.navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+
+.navbar-nav>li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    color: #263238;
+}
+
+.nav a:hover {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    color: #FA7269;
+}
+
+/* Introduction */
+#introduction {
+    background-image: url(img/portrait.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#profil_inline {
+    display: none;
+}
+
+@media (max-width: 991.98px) { 
+    #introduction {
+        background-image: unset;
+    }
+
+    #profil_inline {
+        display: unset;
+        float: right;
+    }
+}
+
+/* Chapter headings */
+.heading-box {
+    padding: 20px 0;
+}
+
+.green-box {
+    background:linear-gradient(to right, #45B5AA 70%, #FAFAFA 30%);
+}
+
+.coral-box {
+    background:linear-gradient(to left, #FA7269 70%, #FAFAFA 30%);
+}
+
+@media (max-width: 768px) {
+    .green-box {
+        background:linear-gradient(to right, #45B5AA 90%, #FAFAFA 10%);
+    }
+    .coral-box {
+        background:linear-gradient(to left, #FA7269 90%, #FAFAFA 10%);
+    }
+}
+
+/* Footer */
+#contact {
+    overflow: hidden;
+    background-color: #BDBDBD;
+    color: white;
+    font-weight: 400;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+/* Progress bar */
+.progress {
+    height: auto;
+}
+
+.progress-bar {
+    padding: 2px 0;
+}
+
+.coral-bar {
+    background-color: #FA7269;
+}
+
+.green-bar {
+    background-color: #45B5AA;
+}
+
+/* Icons */
+.fab {
+    color: white;
+    padding: 15px;
+}
+
+.fab:hover {
+    color: #FA7269;
+    opacity: 90%;
+    text-decoration: none;
+}
+
+.fa-map-marker-alt {
+    color: #FA7269;
+    padding-right: 15px;
+}
+
+/* List */
+.list-coral{
+    list-style: none;
+}
+  
+.list-coral>li::before {
+    content: "\2022"; 
+    color: #FA7269;
+    font-weight: 400;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+.list-green{
+    list-style: none;
+}
+  
+.list-green>li::before {
+    content: "\2022"; 
+    color: #45B5AA;
+    font-weight: 400;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+/* Cards */
+.card {
+    border: none;
+}
+
+.card-img-top {
+    opacity: 0.5;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-top {
+    background: #FAFAFA;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.card-title {
+    margin-bottom: 1.5rem;
+}
+
+.card-subtitle {
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-body {
+    padding: 0.5rem 1.25rem;
+}
+
+.card-footer {
+   background-color: transparent; 
+   border-top: none;
+   margin-bottom: 1.0rem;
+}
+
+/*-- Buttons --*/
+.btn-primary {
+    background-color: transparent;
+    color: #FA7269;
+    border-color: #FA7269;
+    border-width: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.btn-primary:hover {
+    background-color: #FA7269;
+    color: white;
+    border-color: #FA7269;
+    border-width: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #FA7269;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    color: #BDBDBD;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px 0;
+}
+/*-- END Buttons --*/
+
+/* --- Typography ---*/
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #263238;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #263238;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #263238;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #263238;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #263238;
+}
+
+b {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #263238;
+    font-size: 50px;
+}
+
+.mark-light {
+    background-color: #BDBDBD;
+    color: white;
+    opacity: 90%;
+}
+
+.mark-dark {
+    background-color: #263238;
+    color: white;
+    opacity: 90%;
+}
+
+.special {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    line-height: 2;
+    font-weight: 200;
+    color: #263238;
+    font-size: 25px;
+}
+
+.text-link {
+    color: #FA7269;
+}
+
+.text-link:hover {
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+/* Kleinere Überschriften auf schmalen mobilen Geräten */
+@media (max-width: 576px) {
+    h1 {
+        font-size: xx-large !important;
+    }
+    h2 {
+        font-size: larger !important;
+    }
+    h3 {
+        font-size: x-large !important;
+    }
+    h5 {
+        font-size: medium !important;
+    }
+    .special {
+        font-size: larger !important;
+    }
+    .card-title {
+        font-size: x-large !important;
+    }
+}
+
+@media (max-width: 430px) {
+    h1 {
+        font-size: x-large !important;
+    }
+}
+/* --- END Typography ---*/
+
+/* --- Colors ---*/
+.coral {
+    color: #FA7269;
+}
+
+.turquoise {
+    color: #45B5AA;
+}
+
+.light-grey {
+    color: #BDBDBD;
+}
+
+.white {
+    color: #FAFAFA;
+}
+
+.dark-grey {
+    color: #263238;
+}
+/* --- END Colors ---*/
