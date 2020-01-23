@@ -171,6 +171,16 @@ body {
     margin-left: -1em; 
 }
 
+@media (max-width: 576px) {
+    .list-coral {
+        padding-left: 0;
+    }
+
+    .list-green {
+        padding-left: 0;
+    }
+}
+
 /* Cards */
 .card {
     border: none;
