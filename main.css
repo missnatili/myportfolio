@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,600&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=latin-ext');
 
+* {
+    margin: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -48,51 +52,6 @@ body {
     font-weight: 400;
     font-size: 90%;
     color: #FA7269;
-}
-
-/* Introduction */
-#introduction {
-    background-image: url(img/portrait.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
-
-#profil_inline {
-    display: none;
-}
-
-@media (max-width: 991.98px) { 
-    #introduction {
-        background-image: unset;
-    }
-
-    #profil_inline {
-        display: unset;
-        float: right;
-    }
-}
-
-/* Chapter headings */
-.heading-box {
-    padding: 20px 0;
-}
-
-.green-box {
-    background:linear-gradient(to right, #45B5AA 70%, #FAFAFA 30%);
-}
-
-.coral-box {
-    background:linear-gradient(to left, #FA7269 70%, #FAFAFA 30%);
-}
-
-@media (max-width: 768px) {
-    .green-box {
-        background:linear-gradient(to right, #45B5AA 90%, #FAFAFA 10%);
-    }
-    .coral-box {
-        background:linear-gradient(to left, #FA7269 90%, #FAFAFA 10%);
-    }
 }
 
 /* Footer */
@@ -276,7 +235,9 @@ p {
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+    font-style: normal;
     color: #263238;
+    margin-top: 100px;
 }
 
 h2 {
