@@ -65,13 +65,12 @@ body {
 
 /* Icons */
 .fab {
-    color: white;
+    color: #263238;
     padding: 15px;
 }
 
 .fab:hover {
     color: #FA7269;
-    opacity: 90%;
     text-decoration: none;
 }
 
