@@ -23,6 +23,7 @@ body {
 /* Navigation */
 .navbar {
     min-height: 15vh;
+    margin-right: 60px;
 }
 
 .navbar-toggler-icon {
@@ -57,33 +58,9 @@ body {
 /* Footer */
 #contact {
     overflow: hidden;
-    background-color: #BDBDBD;
+    background-color: #263238;
     color: white;
     font-weight: 400;
-}
-
-.img-circle {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-}
-
-/* Progress bar */
-.progress {
-    height: auto;
-}
-
-.progress-bar {
-    padding: 2px 0;
-}
-
-.coral-bar {
-    background-color: #FA7269;
-}
-
-.green-bar {
-    background-color: #45B5AA;
 }
 
 /* Icons */
@@ -103,94 +80,13 @@ body {
     padding-right: 15px;
 }
 
-/* List */
-.list-coral{
-    list-style: none;
-}
-  
-.list-coral>li::before {
-    content: "\2022"; 
-    color: #FA7269;
-    font-weight: 400;
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
-}
-
-.list-green{
-    list-style: none;
-}
-  
-.list-green>li::before {
-    content: "\2022"; 
-    color: #45B5AA;
-    font-weight: 400;
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
-}
-
-@media (max-width: 576px) {
-    .list-coral {
-        padding-left: 0;
-    }
-
-    .list-green {
-        padding-left: 0;
-    }
-}
-
-/* Cards */
-.card {
-    border: none;
-}
-
-.card-img-top {
-    opacity: 0.5;
-    height: 200px;
-    object-fit: cover;
-}
-
-.card-top {
-    background: #FAFAFA;
-}
-
-.card-header {
-    background-color: transparent;
-    border-bottom: none;
-}
-
-.card-title {
-    margin-bottom: 1.5rem;
-}
-
-.card-subtitle {
-    font-size: 0.8rem;
-    margin-top: 0;
-}
-
-.card-text {
-    text-align: justify;
-}
-
-.card-body {
-    padding: 0.5rem 1.25rem;
-}
-
-.card-footer {
-   background-color: transparent; 
-   border-top: none;
-   margin-bottom: 1.0rem;
-}
-
 /*-- Buttons --*/
 .btn-primary {
-    background-color: transparent;
-    color: #FA7269;
-    border-color: #FA7269;
-    border-width: 1px;
+    background-color: #263238;
+    color: white;
+    border: none;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     border-radius: 30px;
     padding: 10px 15px;
 }
