@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=latin-ext');
 
 * {
-    margin: 0;
+    margin: 0 !important;
 }
 
 html {
@@ -11,8 +11,11 @@ html {
 
 body {
     background-color: #FAFAFA;
-    font-family: 'Open Sans', sans-serif;
+    margin-left: 60px !important;
+    margin-right: 60px !important;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    font-size: 16px;
     color: #263238;
 }
 
@@ -23,7 +26,6 @@ body {
 /* Navigation */
 .navbar {
     min-height: 15vh;
-    margin-right: 60px;
 }
 
 .navbar-toggler-icon {
@@ -37,36 +39,32 @@ body {
 }
 
 .navbar-nav>li {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 40px;
 }
 
 .nav a {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 90%;
     color: #263238;
 }
 
 .nav a:hover {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 90%;
     color: #FA7269;
 }
 
-/* Footer */
-#contact {
-    overflow: hidden;
-    background-color: #263238;
-    color: white;
-    font-weight: 400;
+/* Intro */
+#intro {
+    width: 75%;
+}
+
+hr {
+    width: 75%;
 }
 
 /* Icons */
 .fab {
     color: #263238;
-    padding: 15px;
+    padding-right: 30px;
 }
 
 .fab:hover {
@@ -121,73 +119,28 @@ body {
 
 /* --- Typography ---*/
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #263238;
 }
 
-h1 {
+#title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6rem;
+    line-height: 1.2;
+}
+
+#subtitle {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     font-style: normal;
-    color: #263238;
-    margin-top: 100px;
-}
-
-h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    color: #263238;
-}
-
-h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: #263238;
-}
-
-h5 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: #263238;
+    font-size: 2rem;
 }
 
 b {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color: #263238;
-    font-size: 50px;
-}
-
-.mark-light {
-    background-color: #BDBDBD;
-    color: white;
-    opacity: 90%;
-}
-
-.mark-dark {
-    background-color: #263238;
-    color: white;
-    opacity: 90%;
-}
-
-.special {
-    font-family: 'Poppins', sans-serif;
-    display: inline;
-    line-height: 2;
-    font-weight: 200;
-    color: #263238;
-    font-size: 25px;
-}
-
-.text-link {
-    color: #FA7269;
-}
-
-.text-link:hover {
-    color: #BDBDBD;
-    text-decoration: none;
 }
 
 /* Kleinere Überschriften auf schmalen mobilen Geräten */
