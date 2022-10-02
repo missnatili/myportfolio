@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,600&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=latin-ext');
 
-* {
-    margin: 0 !important;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
 body {
     background-color: #FAFAFA;
-    margin-left: 60px !important;
-    margin-right: 60px !important;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -39,7 +33,7 @@ body {
 }
 
 .navbar-nav>li {
-    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .nav a {
@@ -54,17 +48,18 @@ body {
 
 /* Intro */
 #intro {
-    width: 75%;
+    max-width: 800px;
 }
 
-hr {
-    width: 75%;
+.card {
+    border: none;
 }
 
 /* Icons */
 .fab {
     color: #263238;
     padding-right: 30px;
+    padding-left: 15px;
 }
 
 .fab:hover {
@@ -143,31 +138,28 @@ b {
     font-weight: 600;
 }
 
+h1 {
+    font-weight: 600;
+}
+
 /* Kleinere Überschriften auf schmalen mobilen Geräten */
 @media (max-width: 576px) {
-    h1 {
+    #title {
         font-size: xx-large !important;
     }
-    h2 {
-        font-size: larger !important;
-    }
-    h3 {
-        font-size: x-large !important;
-    }
-    h5 {
-        font-size: medium !important;
-    }
-    .special {
-        font-size: larger !important;
-    }
-    .card-title {
-        font-size: x-large !important;
+
+    #subtitle {
+        font-size: large !important;
     }
 }
 
 @media (max-width: 430px) {
-    h1 {
-        font-size: x-large !important;
+    #title {
+        font-size: xx-large !important;
+    }
+
+    #subtitle {
+        font-size: large !important;
     }
 }
 /* --- END Typography ---*/
