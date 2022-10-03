@@ -52,7 +52,10 @@ body {
 }
 
 .card {
-    border: none;
+    padding: 10px;
+    border: 1px solid #263238;
+    border-radius: 10px;
+    background-color: transparent;
 }
 
 /* Icons */
@@ -138,7 +141,7 @@ b {
     font-weight: 600;
 }
 
-h1 {
+h1, h4 {
     font-weight: 600;
 }
 
