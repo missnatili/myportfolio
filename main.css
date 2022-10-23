@@ -8,15 +8,34 @@ html {
 }
 
 body {
-    background-color: #fbfdfd;
+    background-color: #fafafa;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #0a0f51;
+    color: #212121;
 }
 
 .view {
     min-height: 85vh;
+}
+
+.jumbotron {
+    background-color: transparent;
+    margin-top: 6rem;
+}
+
+.display {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #212121;
+    color: #ffffff;
 }
 
 /* Navigation */
@@ -40,7 +59,6 @@ body {
 
 .nav a {
     color: #263238;
-    font-size: 0.9rem;
 }
 
 .nav a:hover {
@@ -53,10 +71,19 @@ body {
 }
 
 .card {
-    padding: 10px;
-    border: 1px solid #263238;
+    border-style: none;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: white;
+    margin-bottom: 1.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0px 0px;
 }
 
 /* Icons */
@@ -162,17 +189,8 @@ h1, h4 {
         font-size: large !important;
     }
 }
-/* --- END Typography ---*/
 
 /* --- Colors ---*/
-.coral {
-    color: #FA7269;
-}
-
-.turquoise {
-    color: #45B5AA;
-}
-
 .light-grey {
     color: #BDBDBD;
 }
@@ -182,6 +200,5 @@ h1, h4 {
 }
 
 .dark-grey {
-    color: #0a0f51;
+    color: #212121;
 }
-/* --- END Colors ---*/
