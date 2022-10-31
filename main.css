@@ -33,9 +33,9 @@ h2 {
     font-weight: 600;
 }
 
-footer {
-    background-color: #212121;
-    color: #ffffff;
+#kontaktinformation {
+    background-color: #263238;
+    color: white;
 }
 
 /* Navigation */
@@ -76,6 +76,12 @@ footer {
     background-color: white;
     margin-bottom: 1.5rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-hover:hover {
+    background-color: #263238;
+    color: white;
+    cursor: pointer;
 }
 
 .card-body {
