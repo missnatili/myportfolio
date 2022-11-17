@@ -193,6 +193,13 @@ a[class="text-link"]:hover {
     }
 }
 
+/* Kleinerer margin auf mobilen Geräten */
+@media (max-width: 576px) {
+    body {
+        margin: 2rem 1rem;
+    }
+}
+
 /* Colors */
 .dark-blue {
     color: #102542;
