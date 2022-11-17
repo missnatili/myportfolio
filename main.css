@@ -53,6 +53,7 @@ body {
 
 .navbar-nav>li {
     padding-left: 40px;
+    opacity: 80%;
 }
 
 .nav a:hover {
